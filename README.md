@@ -1,11 +1,62 @@
-# SWE INTERVIEW TEST 
-THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
 
-1. Clone this repo to your local machine.
-2. Read `Assignment Requirements` carefully and follow it.
-4. Please commit your entire code to `your own Github repository` 
-5. On your repo, please add step-by-step instructions on how to launch (for both the Backend and Frontend) to the `README.md`
-6. Share your repo link with us via email.
+# Simple Card List Application
 
-HAPPY CODING! </br>
-A Round Entertainment
+This is a simple card list web application with separate backend and frontend projects. The backend is built using Node.js and Express, while the frontend is built using React.
+
+## Prerequisites
+
+To run this project locally, you need to have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14.x or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+## Getting Started
+
+### 1. Clone the Repository
+
+1.1 clone the repository to your local machine:
+```bash
+git clone https://github.com/vicky6477/swe-interview-test.git
+cd swe-interview-test
+```
+
+### 2. Backend Setup
+2.1 Navigate to the backend directory:
+```bash
+cd StarterCode/backend
+```
+
+2.2 Install backend dependencies:
+```bash
+npm install
+```
+
+2.3 Start the backend server:
+```bash
+node index.js
+```
+
+By default, the backend server will run on http://localhost:8000.
+
+### 3. Frontend Setup
+3.1 Navigate to the frontend directory:
+```bash
+cd ../frontend
+```
+
+3.2 Install frontend dependencies:
+```bash
+npm install
+```
+
+3.3Start the frontend server:
+```bash
+npm start
+```
+
+The frontend application will run on http://localhost:3000 by default.
+
+API Endpoints
+GET /api/products: Retrieves the list of products with their information.
+DELETE /api/products/
+: Deletes a product by its ID.
